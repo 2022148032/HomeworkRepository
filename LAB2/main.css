@@ -1,0 +1,31 @@
+body{background-color: ivory; }
+
+h1{ font-size:xx-large; 
+    font-family:Arial, Helvetica, sans-serif; 
+    text-align: center;
+    color:hotpink;}
+
+p{  text-align: center; 
+    margin: 10px; }
+
+div{text-align: center;}
+
+.top{border: 1.5px solid rgb(215, 113, 131); 
+    border-radius: 15px; 
+    width: 150px; 
+    text-align: center; 
+    padding-bottom: 1px; 
+    padding-top: 7px;
+    width:600px; 
+    margin: 0 auto;  
+    height: 340px;}
+
+.ltop{border: 1.5px solid rgb(215, 113, 131); 
+    border-radius: 15px; 
+    width: 150px; 
+    text-align: center; 
+    padding-bottom: 1px; 
+    padding-top: 7px;
+    width:600px; 
+    margin: 0 auto;  
+    height: 90px;}

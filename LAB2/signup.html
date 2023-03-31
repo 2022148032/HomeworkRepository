@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Headings</title>
+        <title>Inline Styles</title>
+        <link rel = "stylesheet" type="text/css" href="main.css">
+        
+    </head>
+    <body>
+        <h1>안녕하세요 윤이네 상점입니다!</h1>
+        <p>
+            <a href="login.html">로그인</a>
+            
+            <a href="signup.html">회원가입</a>
+        </p>
+        
+        <form method = "GET" autocomplete="on" action = "https://www.example.com">
+            <div class="top"> 
+            <p>
+                이름: <input name = "name" type = "text"  autofocus size = "25"> </label>
+            </p>
+            <p>
+                <label>생년월일: <input name = "date" type = "date"/> </label> (yyyy-mm-dd)
+            </p>
+            <p>
+                <label>전화번호: <input name = "tel" type = "tel" placeholder = "###-####-####"
+                    pattern= "\d{3}-\d{4}-\d{4}" required/>
+                </label> (###-####-####)
+            </p>
+            <p>
+                <label>연세대학교에서의 학년: <input name = "number" type = "number" min = "1" max = "4" step = "1" value = "2"/> </label>
+            </p>
+            <p>
+                <label>이메일: <input name = "email" type = "email" placeholder="name@domain.com" required/></label> (name@domain.com)
+            </p>
+            <p>
+                <label>아이디: <input name = "name" type = "text" size="25" placeholder="아이디를 입력하세요"></label>
+            </p>
+            <p>
+                <label>비밀번호: <input name = "password" type = "password" size="25" placeholder="비밀번호를 입력하세요"></label>
+            </p>
+            <p>
+                <label>비밀번호 확인: <input name = "check_password" type = "password" size="25" placeholder="비밀번호를 한 번 더 입력하세요"></label>
+            </p>
+            <p>
+                주거지:
+                <label>서울
+                    <input name = "residence" type="radio" value="seoul" checked> </label>
+                <label>경기도
+                    <input name = "residence" type = "radio" value = "gyeonggi"> </label>
+                <label>부산
+                    <input name = "residence" type = "radio" value = "busan"> </label>
+                <label>대구
+                    <input name = "residence" type = "radio" value = "daegu"> </label>
+                <label>광주
+                    <input name = "residence" type = "radio" value = "gwangju"> </label>
+                <label>그외 지역
+                    <input name = "residence" type = "radio" value = "extra"> </label>
+            </p>
+            <p>
+                가입경로:
+                <label>인터넷 광고
+                    <input name = "whyjoin" type="checkbox" value = "internetad"> </label>
+                 <label>지인 추천
+                    <input name = "whyjoin" type="checkbox" value = "recommend"> </label>
+                 <label>검색
+                    <input name = "whyjoin" type="checkbox" value = "searching"> </label>
+                 <label>그외 다른 경로
+                    <input name = "whyjoin" type="checkbox" value = "extra"> </label>
+            </p> </div>
+            <p>
+            <input type = "submit" value = "회원가입"/> 
+            <input type = "reset" value = "취소"/>
+            </p> </div>
+        </form>
+    </body>
+</html>
+</DOCTYPE>
