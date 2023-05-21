@@ -1,0 +1,37 @@
+[
+{
+    "name": "손흥민 유니폼",
+    "price": "120000원",
+    "image": "image/Son uniform.jpg",
+    "info":"손흥민 유니폼입니다",
+    "type": "uniform"
+},
+{
+    "name": "러셀 웨스트브룩 유니폼",
+    "price": "120000원",
+    "image": "image/Russ uniform.jpg",
+    "info":"러셀 웨스트브룩 유니폼입니다",
+    "type": "uniform"
+},
+{
+    "name": "슈야 인형",
+    "price": "30000원",
+    "image": "image/Rabbit doll.jpg",
+    "info":"슈야 인형입니다",
+    "type": "doll"
+},
+{
+    "name": "토야 인형",
+    "price": "30000원",
+    "image": "image/Rabbit doll2.jpg",
+    "info":"토야 인형입니다",
+    "type": "doll"
+},
+{
+    "name": "춘식이 인형",
+    "price": "30000원",
+    "image": "image/kakaodoll.jpg",
+    "info":"춘식이 인형입니다",
+    "type": "doll"
+}
+]
